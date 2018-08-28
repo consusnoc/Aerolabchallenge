@@ -1,0 +1,105 @@
+/* GLOBAL STYLES */
+* {
+  font-family:'Source Sans Pro';
+  font-size: 24px;
+  color: #616161;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('./fonts/SourceSansPro-Bold.eot');
+    src: url('./fonts/SourceSansPro-Bold.woff2') format('woff2'),
+         url('./fonts/SourceSansPro-Bold.woff') format('woff'),
+         url('./fonts/SourceSansPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('./fonts/SourceSansPro-Regular.eot');
+    src: url('./fonts/SourceSansPro-Regular.woff2') format('woff2'),
+         url('./fonts/SourceSansPro-Regular.woff') format('woff'),
+         url('./fonts/SourceSansPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+  -webkit-font-smoothing: antialiased; 
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  font-size: 1em;
+  margin: 0.67em 0;
+}
+
+img {
+  border-style: none;
+}
+
+/* BUTTON STYLES */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+.btn {
+  background: #ededed;
+  border-radius: 100px;
+  border-style: none;
+  outline: 0;
+  height: 55px;
+  padding: 10px 24px;
+  text-decoration: none;
+  font-size: 1em;
+  margin-left: 1em;
+  cursor:pointer;
+}
